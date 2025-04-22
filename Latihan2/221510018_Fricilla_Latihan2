@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World, Latihan Membuat Halaman (title)</title>
+</head>
+<body>
+
+    <!-- element semantik harus berada diantara tag body -->
+    <!-- <header>...</header> Pada umumnya berisi logo, slogan, navigasi, 
+    atau form pencarian. -->
+    <header>Pemrograman Web Statis (header)</header>
+
+    <!-- <nav>...</nav> element nav, digunakan untuk membuat menu link navigasi -->
+    <nav>
+        <ul>
+            <li><a href="www.gatewan.com">HOME (li)</a></li>
+            <li><a href="http://www.gatewan.com/2014/07/about-gatewawan.html">About Me (li)</a></li>
+            <li><a href="http://www.gatewan.com/2014/11/contact-us.html">Buku Tamu (li)</a></li>
+        </ul>
+    </nav>
+
+    <!-- <article>...</article> digunakan untuk konten artikel -->
+    <article>
+        <header>
+            <h1>Artikel Ke-1 (h1)</h1>
+            <br /><br />
+        </header>
+        <section>
+            #Artikel Pertama, Ini adalah latihan pertama saya dalam belajar HTML5 Tingkat Pemula (section)
+        </section>
+    </article>
+
+    <br /><br />
+
+    <article>
+        <header>
+            <!-- <hgroup>...</hgroup> untuk pengelompokan tag heading -->
+            <hgroup>
+                <h1>Pemrograman Web Statis (h1)</h1>
+                <h2>Menggunakan HTML5 Tingkat Dasar (h2)</h2>
+                <h3>Oleh Wawan Beneran (Newbie) (h3)</h3>
+            </hgroup>
+            <br /><br />
+        </header>
+
+        <section>
+            #Artikel Kedua, Ini adalah latihan pertama saya dalam belajar HTML5 Tingkat Pemula (section)
+        </section>
+
+        <br /><br />
+
+        <p>
+            #Ini Paragraph pertama, dummy text dummy text dummy text dummy text dummy text dummy text
+            dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text 
+            dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text 
+            dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text. (p)
+        </p>
+
+        <br /><br />
+
+        <p>
+            #Ini Paragraph kedua, dummy text dummy text dummy text dummy text dummy text dummy text
+            dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text 
+            dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text 
+            dummy text dummy text dummy text dummy text dummy text dummy text dummy text dummy text. (p)
+        </p>
+
+        <br /><br />
+
+        <!-- <aside>...</aside> untuk berita/kutipan terkait -->
+        <aside>Rekomendasi Artikel Terkait "Sejarah HTML5" (aside)</aside>
+        <aside>Rekomendasi Artikel Terkait "Pengembang HTML5" (aside)</aside>
+    </article>
+
+    <br /><br />
+
+    <!-- <figure> dan <figcaption> untuk gambar dan keterangannya -->
+    <figure>
+        <center>
+            <img width="150" height="150" src="https://pbs.twimg.com/profile_images/542714882974441474/j0yC-wkb_400x400.png" alt="ini logo gatewan" />
+            <figcaption>
+                Ini merupakan Icon Aplikasi Gatewan (figcaption)
+            </figcaption>
+        </center>
+    </figure>
+
+    <br /><br /><br /><br />
+
+    <!-- <footer>...</footer> untuk copyright -->
+    <footer># footer -- Copyright <a href="www.gatewan.com">GATEWAN</a> 2015 - All Right Reserved</footer>
+
+</body>
+</html>
